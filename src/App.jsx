@@ -25,9 +25,6 @@ function App() {
       <div className='wrapper'>
         <Sidebar />
         <main>
-         {/*  <Main />
-          <Main />
- */}
           {posts.map(post => {
             return (
               <Main 
