@@ -18,7 +18,7 @@ const posts = [
 ]
 
 
-function App() {
+export function App() {
   return (
     <div>
       <Header />
@@ -41,5 +41,3 @@ function App() {
     </div>
   )
 }
-
-export default App
